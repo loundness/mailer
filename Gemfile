@@ -6,7 +6,7 @@ ruby '2.5.1'
 ###### gem installées ########
 gem 'dotenv'
 gem 'mailjet'
-
+gem 'mail'
 
 ##############################
 
