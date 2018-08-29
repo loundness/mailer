@@ -1,4 +1,4 @@
-# :cat: [Picatsa](https://dev2-picatsa.herokuapp.com)
+# :cat: [Picatsa](https://dev2-picatsa.herokuapp.com) :cat:
 
 ## :clipboard: Présentation: 
  
