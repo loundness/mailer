@@ -1,24 +1,53 @@
-# README
+# :cat: [Picatsa](https://dev2-picatsa.herokuapp.com)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## :clipboard: Présentation: 
+ 
+ Picatsa ? C'est une application qui permet de visualiser des photos de chats, suivant des critères et d'acheter celles qui nous plaisent.
+ 
 
-Things you may want to cover:
+------------------------------
+## :gem: On utilise: ##
 
-* Ruby version
+* ruby '2.5.1'
 
-* System dependencies
+* la base 'sqlite 3'
 
-* Configuration
+* gem 'rails', '~> 5.2.1'
 
-* Database creation
+* gem 'mailjet'
 
-* Database initialization
+* gem 'bootstrap', 
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+------------------------------
+## :desktop_computer: Instructions: ##
 
-* Deployment instructions
+Pour tester cette application, importez le dossier sur votre pc, en suivant les instructions suivantes :
 
-* ...
+
+```sh
+$ git clone https://github.com/jihane-thp/picatsa
+
+$ cd picatsa
+
+$ bundle install --without production
+
+$ rails db:create
+
+$ rails db:migrate
+
+$ rails server
+```
+
+## :rocket: Lien Heroku: ##
+
+Pour accéder à la page Heroku, [picatsa](https://dev2-picatsa.herokuapp.com)
+
+--------
+
+
+
+@jihane
+
+
+@laetitia
