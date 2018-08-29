@@ -1,4 +1,9 @@
 class LandingPageController<ApplicationController
-	def index		
+	def index
+
+	end
+
+	def home
+		ContactMailer.contact(Post.first).deliver_now
 	end	
 end	
