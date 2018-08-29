@@ -1,5 +1,4 @@
 class LandingPageController<ApplicationController
-	def index
-		
+	def index		
 	end	
 end	
