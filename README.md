@@ -1,9 +1,8 @@
-# :cat: [Picatsa](https://dev2-picatsa.herokuapp.com) :cat:
+# :cat: [Jet Mailer](https://jetmailer.herokuapp.com/ ) :cat:
 
 ## :clipboard: Présentation: 
  
- Picatsa ? C'est une application qui permet de visualiser des photos de chats, suivant des critères et d'acheter celles qui nous plaisent.
- 
+Test avec cette appli de l'envoie d'emails avec "mailjet" par "actionmailer"
 
 ------------------------------
 ## :gem: On utilise: ##
@@ -26,9 +25,9 @@ Pour tester cette application, importez le dossier sur votre pc, en suivant les 
 
 
 ```sh
-$ git clone https://github.com/jihane-thp/picatsa
+$ git clone https://github.com/loundness/mailer
 
-$ cd picatsa
+$ cd mailer
 
 $ bundle install --without production
 
@@ -41,13 +40,9 @@ $ rails server
 
 ## :rocket: Lien Heroku: ##
 
-Pour accéder à la page Heroku, [picatsa](https://dev2-picatsa.herokuapp.com)
+Pour accéder à la page Heroku, [Jet Mailer](https://jetmailer.herokuapp.com/ )
 
 --------
 
 
-
-@jihane
-
-
-@laetitia
+@loundness
