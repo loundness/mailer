@@ -8,6 +8,11 @@ class UserMailer < ApplicationMailer
     mail(from: "me@mailjet.com", to: "you@mailjet.com",
           subject: "This is a nice welcome email")
    end
+
+   def delivery
+   	UserMailer.welcome_email.deliver_now!
+   end
+
 end
 
 # pour indiquer à Mail de transformer une pièce jointe en pièce jointe, 

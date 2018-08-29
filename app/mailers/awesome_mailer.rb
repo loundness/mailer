@@ -4,7 +4,7 @@ class AwesomeMailer < ApplicationMailer
 
     mail(
       to: user.email,
-      delivery_method_options: { api_key: 'your-api-key', secret_key: 'your-secret-key' }
+      delivery_method_options: { api_key: 'MJ_APIKEY_PUBLIC', secret_key: 'MJ_APIKEY_PRIVATE' }
     )
   end
 end
